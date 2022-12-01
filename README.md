@@ -8,7 +8,3 @@ To get this working on an Ubuntu desktop system
 2. Install docker-compose
 3. docker-compose up
  
-
-# basicMicroServicesPython
-# basicMicroServicesPython
-# basicMicroServicesPython
