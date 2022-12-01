@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+     
+   emailcheck:
+     build: ./emailcheck
+     ports:
+     - "9000:9000"
+
+   passwordcheck:
+     build: ./passwordcheck
+     ports:
+     - "9001:9001"
