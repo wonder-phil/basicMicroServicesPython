@@ -11,3 +11,8 @@ services:
      build: ./passwordcheck
      ports:
      - "9001:9001"
+     
+   roles:
+     build: ./roles
+     ports:
+     - "9002:9002"     

@@ -1,10 +1,10 @@
 from flask import request, Flask
 import json, socket
 
-import sys
-sys.path.insert(0,"..")
+# import sys
+# sys.path.insert(0,"..")
 
-import my_imports.top
+# import my_imports.top
 
 app = Flask(__name__)
 
@@ -18,7 +18,7 @@ def echo():
     return json.dumps(returnDictionary)
 
 #
-# curl -d "{ \"email\" : \"foo@bar\" }" -X POST http://localhost:9000/check
+# curl -d '{ "email" : "foo@bar" }' -X POST http://localhost:9000/check -H "Content-type: application/json"
 #
 @app.route("/check", methods=["POST"])
 def compute():
